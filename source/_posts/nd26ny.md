@@ -1,5 +1,5 @@
 ---
-title: 用Github和PicGO建造图床(免费)
+title: 用Github和PicGO建造图床(全程免费)
 date: 2021/10/13
 tags:
 
