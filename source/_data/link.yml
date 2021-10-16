@@ -1,0 +1,53 @@
+- class_name: 小伙伴们
+  class_desc: 其中包含着很多的大佬哦!
+  link_list:
+    - name: 云梦 ╮不浅
+      link: https://blog.adworld.top
+      avatar: https://blog.adworld.top/photo/zhade2.jpg
+      descr: 梦，开始的地方
+      siteshot: https://bu.dusays.com/2021/09/19/7d92d3727122a.PNG
+    - name: 雨中的博客
+      link: https://wenchong.space
+      avatar: https://gitee.com/Langwenchong/figure-bed/raw/master/author.jpeg
+      descr: 频繁记录，只因生活和你太值得❤ 
+      siteshot: https://pic.imgdb.cn/item/609a06bed1a9ae528ff429cc.jpg
+    - name: 杜老师说
+      avatar: https://cdn.dusays.com/avatar.png
+      link: https://dusays.com
+      screenshot: https://bu.dusays.com/2020/11/13/0eccf1ca0dc4b.jpg
+      descr: 师者，传道，授业，解惑！
+    - name: DearXuan
+      avatar: https://bu.dusays.com/2021/08/25/32f61f6ad6985.png
+      link: https://www.dearxuan.top
+      screenshot: https://bu.dusays.com/2021/08/27/c0424b7eb583a.jpg
+      descr: 编程,算法
+    - name: 罗小黑
+      avatar: https://thirdqq.qlogo.cn/g?b=qq&nk=3285884651&s=100
+      link: https://www.aiyo99.com
+      screenshot: https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/捕获.PNG
+      descr: 我在等一个人，等一个想保护的人。
+    - name: QianChengGit の小森林
+      avatar: https://QianChengGit.github.io/img/avatar.png
+      link: https://qianchenggit.github.io
+      screenshot: https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/小森林.PNG
+      descr: QianChengGit の小森林，欢迎来小森林做客！
+    - name: 小孙同学
+      link: https://sunguoqi.com
+      avatar: https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210719203648.jpg
+      descr: 小孙同学在努力
+      screenshot: https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210723133309.jpg
+    - name: ZJingW's のブログ
+      link: https://jingwzeng.github.io
+      avatar: https://cdn.jsdelivr.net/gh/JingWZeng/markdownImg/img/202108231635263.jpeg
+      screenshot: https://i.loli.net/2021/10/02/oGJF6ZQiH7OBvVx.png
+      descr: 爱折腾的小前端
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 期待您的光临！
+      siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+    - name: 阳光派Plus’Blog
+      link: https://www.zyoushuo.cn
+      avatar: https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/photo_1.jpg
+      descr: 聪明的妖怪已经录下了唐僧的紧箍咒
+      siteshot: https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/BG_10.jpg  

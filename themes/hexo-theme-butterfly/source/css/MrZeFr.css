@@ -1,0 +1,447 @@
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/normal.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/link.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/link.cur'),auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/text.cur'),auto;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/alt.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/link.cur'),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/link.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/alt.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/link.cur'),auto;
+}
+
+.read-mode #aside-content .card-widget{
+    background: rgba(96 , 125 , 139)!important;
+  }
+.read-mode div#post{
+  background: rgba(96 , 125 , 139)!important;
+  }
+
+  [data-theme="dark"]
+  .read-mode #aside-content .card-widget{
+        background: rgba(0, 0, 0, 0.5)!important;
+        color: #ffffff;
+      }
+[data-theme="dark"]  
+  .read-mode div#post{
+      background: rgba(0, 0, 0, 0.5)!important;
+      color: #ffffff;
+      }
+
+      @font-face {
+        font-family:'arzhu';
+        src:url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/xindi_tea_base.TTF'); 
+        font-display:swap
+    }
+    h1#site-title {
+        font-family:arzhu!important
+    }
+    span#subtitle {
+        font-family:arzhu!important
+    }
+    a#site-name {
+        font-family:arzhu!important
+    }
+
+    #footer {
+        background: rgba(255,255,255,.15);
+        color: #000;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        backdrop-filter: saturate(100%) blur(5px)
+    }
+    
+    #footer::before {
+        background: rgba(255,255,255,.15)
+    }
+    
+    #footer #footer-wrap {
+        color: var(--font-color)
+    }
+    
+    #footer #footer-wrap a {
+        color: var(--font-color)
+    }
+
+/* 文章页H1-H6图标样式效果 */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    -webkit-animation: ccc 1.6s linear infinite ;
+    animation: ccc 1.6s linear infinite ;
+}
+@-webkit-keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+@keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+
+#content-inner.layout h1::before {
+    color: #ef50a8 ;
+    margin-left: -1.55rem;
+    font-size: 1.3rem;
+    margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+    color: #fb7061 ;
+    margin-left: -1.35rem;
+    font-size: 1.1rem;
+    margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+    color: #ffbf00 ;
+    margin-left: -1.22rem;
+    font-size: 0.95rem;
+    margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+    color: #a9e000 ;
+    margin-left: -1.05rem;
+    font-size: 0.8rem;
+    margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+    color: #57c850 ;
+    margin-left: -0.9rem;
+    font-size: 0.7rem;
+    margin-top: 0.0rem;
+}
+#content-inner.layout h6::before {
+    color: #5ec1e0 ;
+    margin-left: -0.9rem;
+    font-size: 0.66rem;
+    margin-top: 0.0rem;
+}
+
+.jg-caption-visible::before {
+    content: "⊙ ";
+} 
+.fancybox-caption__body::before {
+    content: "⊙ ";
+} 
+.img-alt.is-center::before {
+    content: "⊙ ";
+}
+
+@font-face{
+    font-family:'爱情气象所' ;  /* 字体名自定义即可 */
+    src:url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/FXAiQingQiXiangSuo.ttf'); /* 字体文件路径 */
+    font-display : swap;
+}
+
+h1#site-title {
+    font-family: '爱情气象所', sans-serif;
+}
+
+@font-face{
+    font-family: 'SAOUI';
+    src: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/SAOUI.ttf');
+    font-display: swap;
+  }
+  #div1 {
+      position: relative;/*必须，为了梯形定位*/
+      width: 341px;
+      height: 500px;
+      background: #ebe9ea;
+      margin-top: 100px;
+      border: 2px solid #877c7e;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
+      border-top-right-radius: 14px;
+      border-top-left-radius: 5px;
+  }
+  .trapezoidMaxLine {/*最外层梯形所在的div*/
+      position: absolute;/*相对于div1定位*/
+      /* background: #062343;/*设置成背景色，遮挡下边框*/ */
+      z-index: 4;
+      height: 27px;/*根据实际情况*/
+      width: 150px;/*根据实际情况*/
+      top: -29px;/*定位，根据实际情况*/
+      left: 8px;
+  }
+  /*重点来啦！！！最外层梯形代码在此*/
+  .trapezoidMaxLine:before {
+      content: '';
+      position: absolute;/*相对于trapezoidMaxLine定位*/
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      border: 2px solid #877c7e;
+      border-bottom: 0 solid #fff;
+      transform: perspective(6px) rotateX(3deg);
+  }
+  /*内层梯形所在的div，和最外层的一样，区别是定位参照物，和颜色位置*/
+  .trapezoidMinLine {/*内层梯形所在的div*/
+      position: absolute;
+      z-index: 4;
+      height: 27px;
+      width: 148px;
+      top: 1px;
+      left: 1px;
+  }
+  .trapezoidMinLine:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      background: #ebe9ea;
+      border: 1px solid #877c7e;
+      border-bottom: 0 solid #fff;
+      transform: perspective(6px) rotateX(3deg);
+    }
+    span.unitName.titleText {
+      font-family: 'SAOUI';
+      font-size: 20px;
+      font-weight: bolder;
+      color: rgba(60, 60, 61,0.7)!important;
+      top: 10px;
+      position: absolute;
+      z-index: 5;
+      left: 30px;
+      width: 100%;
+    }
+    span.unitName.titleText i{
+      margin-right: 10px;
+    }
+    span.unitName.titleText::after{
+    display: block;
+    width: 90%;
+    margin-left: -10%;
+    margin-top: 2px;
+    height: 2px;
+    content: '';
+    background: rgba(160, 159, 160,0.9);
+    border-radius: 5px;
+  }
+  #userVisitEchart{
+    background: #fff;
+    height: 90%;
+    width: 90%;
+    margin: 5% 5%;
+  }
+
+/* SAOUI字体精简包，仅73KB */
+@font-face{
+    font-family: 'SAOUI';
+    src: url('https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/SAOUI.ttf');
+    font-display: swap;
+  }
+  /* 应用于除了作者卡片以为的所有侧栏卡片 */
+  .card-widget:not(.card-info) {
+    overflow: visible !important;
+    margin-bottom: 45px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 0px !important;
+    font-family: 'SAOUI' !important;
+    color: rgba(60,60,61,0.7) !important;
+    font-weight: bold;
+  }
+  /* 修复一下对侧栏电子钟的覆盖 */
+  .card-widget.card-clock {
+    overflow: hidden !important;
+    border-radius: 8px !important;
+  }
+  /* 定义标题栏的定位方式为绝对定位 */
+  .item-headline {
+    font-family: 'SAOUI' !important;
+    color: rgba(60,60,61,0.7) !important;
+    font-weight: bold;
+    position: absolute;
+    z-index: 4;
+    height: 27px;
+    width: 65%;
+    top: -27px;
+    left: 7px;
+  }
+  /* 标题栏下各元素的层级，保证它们能显示在伪类之上 */
+  .item-headline i {
+    position: relative;
+    top: 0px;
+    margin-left: 5%;
+    z-index: 2;
+  }
+  .item-headline span {
+    position: relative;
+    top: 0px;
+    z-index: 2;
+  }
+  .item-headline a {
+    position: relative;
+    top: 0px;
+    z-index: 2;
+  }
+  /* 梯形伪类 */
+  .item-headline:after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: 0;
+    bottom: 0;
+    left: -3px;
+    z-index: 1;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0.9);
+    border-bottom: 0 solid #fff;
+    /* 关键形变 */
+    transform: perspective(20px) rotateX(3deg);
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+  }
+  /* 下划线伪类 */
+  .item-headline:before {
+    display: block;
+    width: 140%;
+    margin-top: 2px;
+    height: 2px;
+    content: '';
+    background: rgba(160,159,160,0.9);
+    border-radius: 5px;
+    top: 40px;
+    left: 0;
+    position: relative;
+  }
+  /* 针对手机样式的偏移量调整 */
+  @media screen and (max-width: 800px) {
+    .item-headline {
+      left: 8px;
+    }
+  }
+  [data-theme="dark"] .card-widget:not(.card-info) {
+    color: rgba(255,255,255,0.7) !important;
+  }
+  [data-theme="dark"] .item-headline {
+    color: rgba(255,255,255,0.7) !important;
+  }
+  [data-theme="dark"] .item-headline:after {
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 0 solid rgba(0,0,0,0.5);
+  }
+  [data-theme="dark"] .item-headline:before {
+    background: rgba(255,255,255,0.9);
+  }
+
+  #web_bg{
+    background-image: url("https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/渐变.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://cdn.jsdelivr.net/gh/SYSTEMWindows11/File@main/图片.jpg");
+
+}
+
+/* 打字效果渐变 */
+
+@-webkit-keyframes Gradient {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+}
+
+#subtitle {
+  background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#subtitle:before {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* 首页中间打字效果上方 */
+#page-header #site_title {
+  color: #80bdab;
+}
+/* 顶部导航栏 */
+#nav a {
+  color: #f9f2f4;
+}
+
+        
+        
+
+
+
